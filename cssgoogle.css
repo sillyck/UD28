@@ -1,0 +1,128 @@
+body {
+  margin: auto 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #202124;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #202124;
+}
+
+.nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav > div {
+  padding: 5px 10px;
+}
+
+.centro {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botones {
+  text-align: center;
+  width: 50vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  color: #999da2;
+  align-items: center;
+}
+
+.botones > div {
+  padding: 5px 15px;
+  margin: 5px;
+  background-color: #303134;
+  border: solid #303134 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#disponible {
+  color: #999da2;
+}
+
+.barra {
+  border-radius: 25px;
+  padding: 0 25px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: #202124;
+  color: white;
+  width: 70%;
+  border: solid white 1px;
+  margin: 25px 0;
+}
+
+.barra > input {
+  background-color: #202124;
+  color: white;
+  border: none;
+  width: 90%;
+  height: 75%;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid #999da27a 1px;
+}
+
+#footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer > div > div,
+#espanya {
+  margin: 0 15px;
+}
+
+footer > div {
+  padding: 20px;
+}
+
+footer {
+  background-color: #171717;
+  color: #999da2;
+}
