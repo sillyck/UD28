@@ -1,0 +1,153 @@
+body {
+  background-image: url("fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 98vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  color: white;
+}
+
+i {
+  cursor: pointer;
+}
+
+main{
+  margin: auto;
+}
+
+#buscar {
+  position: relative;
+  left: -250px;
+  top: -150px;
+  background-color: white;
+  padding: 5px 10px;
+  height: 50px;
+  width: 500px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 400px auto;
+  align-items: center;
+}
+
+#texto > input {
+  border: none;
+  height: 30px;
+  width: 90%;
+}
+
+.buscar{
+  color: rgb(96, 191, 235);
+}
+
+.iconosmain {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 40%;
+  margin: 30px 0px;
+}
+
+#nav1 {
+  grid-template-columns: 50px 245px 70px 70px 70px 70px;
+}
+
+#nav2 {
+  grid-template-columns: 70px 70px 70px 20px 90px 20px 30px;
+}
+.div-nav {
+  display: grid;
+  font-weight: bold;
+}
+
+.div-nav > div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.div-nav > .div-nav1 {
+  padding-left: 80px;
+  margin-right: -50px;
+}
+
+.div-nav > .div-nav1_2 {
+  margin-right: 20px;
+}
+
+.div-nav > .div-nav2 {
+  margin-left: 80px;
+}
+
+.div-nav > .div-nav4 {
+  padding-left: 80px;
+  margin-right: 100px;
+}
+
+#carrusel2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-column-gap: 0.5%;
+  margin: 5px;
+  padding: 0px;
+}
+
+.carrusel {
+  background-color: rgba(34, 34, 34, 0.9);
+  padding: 0 10px;
+  border-radius: 15px;
+}
+
+#carrusel > ul {
+  list-style: none;
+}
+
+.carrusel > div {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 0.5%;
+  margin-top: 10px;
+}
+
+.carrusel > div > div {
+width: 100px;
+margin-right: 10px;
+}
+
+.carrusel > div > div > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.carruselbtn{
+  background-color: rgba(34, 34, 34, 0.9);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+#botones > div:last-child {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#botones {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 90%;
+  margin: 15px;
+}
+
+footer {
+  margin: 0 100px;
+  font-size: 12px;
+}
