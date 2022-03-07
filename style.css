@@ -1,0 +1,99 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #141414;
+  color: white;
+  margin: 0;
+}
+
+nav {
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+nav > div > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav > div > ul > li {
+  margin-right: 15px;
+}
+
+nav > div > ul > li:hover {
+  cursor: pointer;
+  color: #b8b8b8bc;
+}
+
+nav > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#series{
+    cursor: pointer;
+}
+
+nav > div > img {
+  width: 150px;
+  margin-right: 15px;
+  padding: 0 15px;
+}
+
+nav > div > div,
+nav > div > i {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+nav > div > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-right: 15px;
+}
+
+nav > div > div > img {
+  margin-right: 10px;
+}
+
+body > div {
+  margin: 30px 20px;
+}
+
+body > div > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+body > div > div > div {
+  width: 19.5%;
+}
+
+body > div > div > div > img {
+  width: 100%;
+  object-fit: contain;
+}
